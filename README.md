@@ -1,2 +1,24 @@
 # e
 e is a general purpose function to manipulate HTML DOM elements.
+
+## Usage
+
+If the first argument is a string, it will return the element matching with that ID, or null if not elements is associated with that ID. The subsequce arguments will be used for update its attribute and children. For example,
+
+`e('div1')` is equivalent to `document.getElementById('div1')`.
+`e('div', {'style': 'color: red'}, 'Hello world')` is equivalent to the following statements:
+
+```js
+const div = document.getElementById('div1');
+div.setAttribute('style', 'color: red');
+div.innerHTML = 'Hello world';
+```
+
+If the param is an array, creates an HTML element based on the items in the array and return the element. The array should be in the form of the following:
+
+```
+element := [type, {attributes...}, children]
+children := [elements...]|text
+```
+
+If the children is a list of array, construct the children recursively and append to the current node. If the children is a string, simply set the node's innerHTML.
