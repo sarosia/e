@@ -1,0 +1,30 @@
+{
+  "name": "e",
+  "version": "1.0.0",
+  "description": "A general purpose function to manipulate HTML DOM elements.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint src test --fix"
+  },
+  "author": "https://github.com/sarosia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarosia/e.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "chai": "^3.5.0",
+    "eslint": "^7.19.0",
+    "eslint-config-google": "^0.14.0",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.3.0",
+    "uglify-js": "^3.12.8"
+  },
+  "bugs": {
+    "url": "https://github.com/sarosia/e/issues"
+  },
+  "homepage": "https://github.com/sarosia/e#readme"
+}
