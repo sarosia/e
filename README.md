@@ -32,9 +32,9 @@ If the children is a list of array, construct the children recursively and appen
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/dom-e.svg
-[npm-url]: https://npmjs.org/package/dom-e
-[downloads-image]: https://img.shields.io/npm/dm/dom-e.svg
-[downloads-url]: https://npmjs.org/package/dom-e
+[npm-image]: https://img.shields.io/npm/v/@sarosia/e.svg
+[npm-url]: https://npmjs.org/package/@sarosia/e
+[downloads-image]: https://img.shields.io/npm/dm/@sarosia/e
+[downloads-url]: https://npmjs.org/package/@sarosia/e
 [build-image]: https://github.com/sarosia/e/workflows/Node.js%20CI/badge.svg
 [build-url]: https://github.com/sarosia/e/actions
