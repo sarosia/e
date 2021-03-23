@@ -1,5 +1,5 @@
 {
-  "name": "e",
+  "name": "dom-e",
   "version": "1.0.0",
   "description": "A general purpose function to manipulate HTML DOM elements.",
   "main": "dist/index.js",
