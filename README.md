@@ -1,6 +1,8 @@
 # e
 
 [![Build Status][build-image]][build-url]
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 
 e is a general purpose function to manipulate HTML DOM elements.
 
@@ -30,5 +32,9 @@ If the children is a list of array, construct the children recursively and appen
 
 [MIT](LICENSE)
 
+[npm-image]: https://img.shields.io/npm/v/dom-e.svg
+[npm-url]: https://npmjs.org/package/dom-e
+[downloads-image]: https://img.shields.io/npm/dm/dom-e.svg
+[downloads-url]: https://npmjs.org/package/dom-e
 [build-image]: https://github.com/sarosia/e/workflows/Node.js%20CI/badge.svg
 [build-url]: https://github.com/sarosia/e/actions
