@@ -1,4 +1,7 @@
 # e
+
+[![Build Status][build-image]][build-url]
+
 e is a general purpose function to manipulate HTML DOM elements.
 
 ## Usage
@@ -22,3 +25,10 @@ children := [elements...]|text
 ```
 
 If the children is a list of array, construct the children recursively and append to the current node. If the children is a string, simply set the node's innerHTML.
+
+## License
+
+[MIT](LICENSE)
+
+[build-image]: https://github.com/sarosia/e/workflows/Node.js%20CI/badge.svg
+[build-url]: https://github.com/sarosia/e/actions
