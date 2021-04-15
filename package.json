@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha",
-    "lint": "eslint src test --fix"
+    "lint": "eslint src test"
   },
   "author": "https://github.com/sarosia",
   "license": "MIT",
