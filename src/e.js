@@ -68,7 +68,11 @@ const buildElement = function(param) {
     setAttributes(elm, attributes);
   }
   if (children !== undefined) {
-    updateChildren(elm, children);
+    if (children instanceof Array) {
+      updateChildren(elm, children);
+    } else {
+      updateInnerHTML(elm, children);
+    }
   }
   return elm;
 };
